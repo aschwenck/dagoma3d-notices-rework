@@ -2,62 +2,77 @@
   "header": {
     "img": "FirstStep/premier-pas.jpg",
     "title": [
-      "Téléchargement"
+      "Téléchargements"
     ],
-    "subtitle": "Firmwares et logiciels",
+    "subtitle": "Logiciels et firmwares",
     "text": [
       ""
     ]
   },
   "title": {
     "type": "banner",
-    "title": "Que souhaitez vous télécharger ?"
+    "title": "Que souhaitez-vous télécharger ?"
   },
   "choices": [
     {
-      "title": "Cura-by-Dagoma",
+      "title": "Cura by Dagoma",
       "src": "cura",
       "options": [
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.exe",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma_x64.exe",
           "src": "windows",
-          "title": "Windows"
+          "title": "Windows (64bits)"
         },
         {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/download/CuraByDagoma.dmg",
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma_x86.exe",
+          "src": "windows",
+          "title": "Windows (32bits)"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python3/CuraByDagoma_amd64.deb",
+          "src": "linux",
+          "title": "Linux (64bits)"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python3/CuraByDagoma_i386.deb",
+          "src": "linux",
+          "title": "Linux (32bits)"
+        },
+        {
+          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/download/2.1.7-python2/CuraByDagoma.dmg",
           "src": "macos",
           "title": "MacOS"
-        },
-        {
-          "href": "https://github.com/dagoma3d/CuraByDagoma/releases/latest/",
-          "src": "linux",
-          "title": "Linux"
         }
       ]
     },
     {
-      "title": "Dagomapp",
+      "title": "Dagom'app",
       "src": "dagoma",
       "options": [
         {
-          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_Windows_amd64.zip",
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/download/0.2.60/DagomApp_Windows_amd64.zip",
           "src": "windows",
-          "title": "Windows 64bits"
+          "title": "Windows (64bits)"
         },
         {
-          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_Windows_i386.zip",
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/download/0.2.60/DagomApp_Windows_i386.zip",
           "src": "windows",
-          "title": "Windows 32bits"
+          "title": "Windows (32bits)"
         },
         {
-          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/download/DagomApp_MacOS.zip",
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/download/0.2.60/DagomApp_Linux_amd64.zip",
+          "src": "linux",
+          "title": "Linux (64bits)"
+        },
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/download/0.2.60/DagomApp_Linux_i386.zip",
+          "src": "linux",
+          "title": "Linux (32bits)"
+        },
+        {
+          "href": "https://github.com/dagoma3d/DagomaBurner/releases/download/0.2.60/DagomApp_MacOS.zip",
           "src": "macos",
           "title": "MacOS"
-        },
-        {
-          "href": "https://github.com/dagoma3d/DagomaBurner/releases/latest/",
-          "src": "linux",
-          "title": "Linux"
         }
       ]
     },
@@ -66,24 +81,9 @@
       "src": "tools",
       "options": [
         {
-          "to": "/",
-          "src": "discoeasy",
-          "title": "DiscoEasy200"
-        },
-        {
-          "to": "/",
-          "src": "disco-ultimate",
-          "title": "DiscoUltimate"
-        },
-        {
-          "to": "/",
-          "src": "magis",
-          "title": "Magis"
-        },
-        {
-          "to": "/",
-          "src": "neva",
-          "title": "Neva"
+          "href": "https://dist.dagoma3d.com/",
+          "src": "tools",
+          "title": "Marlin (Firmware)"
         }
       ]
     }
