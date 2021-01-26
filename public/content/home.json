@@ -6,7 +6,10 @@
     ],
     "subtitle": "C'est parti !",
     "text": [
-      "Félicitations ! Si vous êtes ici c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D. Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants. Vous êtes prêts ?"
+      "Félicitations !",
+      "Si vous êtes ici, c'est que vous avez fait un (bon) choix : vous lancer dans l'aventure de l'impression 3D.",
+      "Nous allons vous accompagner étape par étape, du montage à la première utilisation de votre machine ou de vos nouveaux composants.",
+      "Vous êtes prêts ?"
     ]
   },
   "title": {
@@ -21,17 +24,27 @@
         {
           "to": "/magis",
           "src": "magis",
-          "title": "Magis"
+          "title": "Notice d'utilisation"
         },
         {
           "to": "/magis/box",
           "src": "caisson-neva-magis",
-          "title": "Caisson"
+          "title": "Caisson de protection"
         },
         {
           "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
+        },
+        {
+          "to": "/firmware",
+          "src": "dagoma",
+          "title": "Dagom'app"
+        },
+        {
+          "href": "https://support.dagoma.fr/support/solutions/36000111164",
+          "src": "faq",
+          "title": "F.A.Q"
         }
       ]
     },
@@ -42,17 +55,27 @@
         {
           "to": "/neva",
           "src": "neva",
-          "title": "Neva"
+          "title": "Notice d'utilsation"
         },
         {
           "to": "/neva/box",
           "src": "caisson-neva-magis",
-          "title": "Caisson"
+          "title": "Caisson de protection"
         },
         {
           "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
+        },
+        {
+          "to": "/firmware",
+          "src": "dagoma",
+          "title": "Dagom'app"
+        },
+        {
+          "href": "https://support.dagoma.fr/support/solutions/36000080632",
+          "src": "faq",
+          "title": "F.A.Q"
         }
       ]
     },
@@ -99,11 +122,21 @@
           "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
+        },
+        {
+          "to": "/firmware",
+          "src": "dagoma",
+          "title": "Dagom'app"
+        },
+        {
+          "href": "https://support.dagoma.fr/support/solutions/36000080631",
+          "src": "faq",
+          "title": "F.A.Q"
         }
       ]
     },
     {
-      "title": "Disco Ultimate",
+      "title": "DiscoUltimate",
       "src": "disco-ultimate",
       "options": [
         {
@@ -132,13 +165,18 @@
           "to": "/cura-by-dagoma",
           "src": "cura",
           "title": "Cura by Dagoma"
+        },
+        {
+          "to": "/firmware",
+          "src": "dagoma",
+          "title": "Dagom'app"
+        },
+        {
+          "href": "https://support.dagoma.fr/support/solutions/36000080631",
+          "src": "faq",
+          "title": "F.A.Q"
         }
       ]
-    },
-    {
-      "title": "Cura by Dagoma",
-      "src": "cura",
-      "to": "cura-by-dagoma"
     }
   ]
 }
