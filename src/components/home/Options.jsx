@@ -10,7 +10,7 @@ function Options({ choice }) {
 
   useEffect(() => {
     if (ref.current)
-      ref.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+      ref.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   }, [choice]);
 
   if (!choice) return null;
