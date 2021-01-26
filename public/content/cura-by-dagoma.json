@@ -89,7 +89,7 @@
           "title": "CURA"
         },
         {
-          "text": "Vous changez d'imprimantes ou vous en avez plusieurs ? Aucun problème, vous pourrez modifier ce choix depuis l'onglet \"Préférences\"."
+          "text": "Vous changez d'imprimante ou vous en avez plusieurs ? Aucun problème, vous pourrez modifier ce choix depuis l'onglet \"Préférences\"."
         }
       ]
     },
@@ -132,7 +132,7 @@
           "text": "Programmer une pause a plusieurs intérêts : le changement de couleur, de filament ou l'insertion d'un objet au milieu de l'impression (écrou, aimant, ...)."
         },
         {
-          "text": "Voici le rendu final de la pièce préparée juste au dessus."
+          "text": "Voici le rendu final de la pièce préparée juste au-dessus."
         },
         {
           "button": {
@@ -180,10 +180,10 @@
           "title": "Choisir son remplissage"
         },
         {
-          "text": "Cura vous permet de définir le taux de remplissage de la pièce. plusieurs choix sont possibles."
+          "text": "Cura vous permet de définir le taux de remplissage de la pièce. Plusieurs choix sont possibles."
         },
         {
-          "text": "Vase : seule la couche extérieure de votre objet sera imprimée (en spirale). Ce mode ultra rapide est adapté aux objets creux et ouverts sur leur dessus (bref un vase !)."
+          "text": "Vase : seule la couche extérieure de votre objet sera imprimée (en spirale). Ce mode ultra rapide est adapté aux objets creux et ouverts sur leur dessus (bref, un vase !)."
         },
         {
           "text": "Creux (0%) : pour une impression sans remplissage et rapide (limite les géométries imprimables, on vous explique ça juste après avec le support)."
@@ -195,7 +195,7 @@
           "text": "Renforcé (33%) : pour une pièce résistante."
         },
         {
-          "text": "Plus il y a de remplissage plus le temps d'impression augmentera."
+          "text": "Plus il y a de remplissage, plus le temps d'impression augmentera."
         }
       ]
     },
@@ -216,19 +216,19 @@
           "title": "Le support, c'est quoi ? ça sert à quoi ?"
         },
         {
-          "text": "La gravité (nom de zeus) nous empêche d'imprimer au-dessus du vide. Par conséquent chaque couche d'impression doit donc être supportée par celle du dessous (a minima chevauchée à 50%). Le support soutien donc les parties de la pièce qui se trouvent au-dessus du vide."
+          "text": "La gravité (nom de Zeus) nous empêche d'imprimer au-dessus du vide. Par conséquent, chaque couche d'impression doit donc être supportée par celle du dessous (a minima chevauchée à 50%). Le support soutient donc les parties de la pièce qui se trouvent au-dessus du vide."
         },
         {
           "text": "Le YHT ci-contre montre les différentes possibilités."
         },
         {
-          "text": "Y : il est possible d'imprimer au dessus du vide tant que l'angle de la surface ne dépasse pas 45°."
+          "text": "Y : Il est possible d'imprimer au-dessus du vide tant que l'angle de la surface ne dépasse pas 45°."
         },
         {
-          "text": "H : il est possible d'imprimer entre deux tours (nous appelons ça un bridge). A partir d'une certaine longueur, le bridge ne tiendra pas, Il faudra du support."
+          "text": "H : Il est possible d'imprimer entre deux tours (nous appelons ça un bridge). A partir d'une certaine longueur, le bridge ne tiendra pas, il faudra du support."
         },
         {
-          "text": "T : Sans support il est impossible d'imprimer un surplomb comme les branches du T."
+          "text": "T : Sans support, il est impossible d'imprimer un surplomb comme les branches du T."
         }
       ]
     },
@@ -273,7 +273,7 @@
           "title": "Le décollement des pièces"
         },
         {
-          "text": "C'est malheureusement un impondérable de l'impression 3D. Selon les géométries, la qualité de la première couche, la qualité des surfaces d'accroches, la pièce peut se décoller. Un décollement partiel comme sur l'image (appelé warping) est gênant puisqu'il a déformé la pièce. Un décollement complet entraîne un échec total de l'impression et peut endommager l'imprimante."
+          "text": "C'est malheureusement un impondérable de l'impression 3D. Selon les géométries, la qualité de la première couche, la qualité des surfaces d'accroche, la pièce peut se décoller. Un décollement partiel comme sur l'image (appelé warping) est gênant puisqu'il a déformé la pièce. Un décollement complet entraîne un échec total de l'impression et peut endommager l'imprimante."
         },
         {
           "text": "La case à cocher \"Amélioration de la surface d'adhésion\" permet de limiter ce phénomène. Cette option vient ajouter une fine couche tout autour de la pièce et la stabilise sur la surface. Il faudra la retirer à la fin de l'impression."
@@ -306,7 +306,13 @@
     "subtitle": "Vous savez tout sur Cura by Dagoma",
     "items": [
       {
-        "text": "Merci d'avoir suivi cette notice. Nous mettons tout en oeuvre pour vous simplifier l'expérience de l'impression 3D avec Dagoma. Pour nous aider à améliorer cette notice, pourriez-vous prendre dix secondes (promis pas plus) pour nous donnez votre avis ?"
+        "text": "Merci d'avoir suivi cette notice."
+      },
+      {
+        "text": "Nous mettons tout en oeuvre pour vous simplifier l'expérience de l'impression 3D avec Dagoma."
+      },
+      {
+        "text": "Pour nous aider à améliorer cette notice, pourriez-vous prendre dix secondes (promis, pas plus) pour nous donner votre avis ?"
       }
     ]
   }
