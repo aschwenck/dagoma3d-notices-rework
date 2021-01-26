@@ -1,7 +1,7 @@
 {
   "header": {
     "img": "DiscoEasy/Software/a-intro-maj-disco.jpg",
-    "subtitle": "Mise à jour pour votre Imprimante",
+    "subtitle": "Mise à jour pour votre imprimante",
     "text": [
       "Profitez de la mise à jour de votre firmware et bénéficiez de nouvelles fonctionnalités sur votre imprimante."
     ],
@@ -21,7 +21,10 @@
           "pretitle": "Nécessaire pour fonctionner"
         },
         {
-          "text": "Avant d'aller plus loin, téléchargez et installez Cura by Dagoma. Lors de l'installation, nous installons des éléments nécessaires au bon fonctionnement de Dagom'app."
+          "warning": "Avant d'aller plus loin, téléchargez et installez Cura by Dagoma."
+        },
+        {
+          "text": "Lors de l'installation, nous installons des éléments nécessaires au bon fonctionnement de Dagom'app."
         },
         {
           "button": {
@@ -41,10 +44,11 @@
           "pretitle": "Les pré-requis"
         },
         {
-          "list": [
-            "Une imprimante 3d",
-            "Un câble USB-B (fournis avec ton imprimante)",
-            "Un ordinateur et Dagom'app"
+          "lettered-list": [
+            "Une imprimante 3D",
+            "Un câble USB-B (fourni avec votre imprimante)",
+            "Un ordinateur",
+            "Le logiciel Dagom'app"
           ]
         },
         {
@@ -62,8 +66,8 @@
     {
       "type": "banner",
       "title": "Commençons !",
-      "text": [
-        "Lancez dagom'app et suivez les instructions"
+      "subtitle": [
+        "Lancez Dagom'app et suivez les instructions"
       ]
     },
     {
@@ -118,10 +122,10 @@
           "title": "Etape 4"
         },
         {
-          "text": "Reliez l'imprimante à l'ordinateur via le cable USB fournis."
+          "text": "Reliez l'imprimante à l'ordinateur via le cable USB fourni."
         },
         {
-          "text": "Pour le passage du câble regarde la vidéo suivante :"
+          "text": "Pour le passage du câble, regardez la vidéo suivante :"
         },
         {
           "video": {
@@ -140,7 +144,7 @@
           "title": "Etape 5"
         },
         {
-          "text": "Choisissez \"Je donne de nouveaux pouvoirs\" puis cliquez sur la flèche bleue."
+          "text": "Choisissez \"Je donne de nouveaux pouvoirs\" puis cliquez sur la flèche."
         }
       ]
     },
@@ -167,7 +171,7 @@
           }
         },
         {
-          "frame": "Choisissez les options dont votre machine est équipée uniquement !"
+          "warning": "Choisissez uniquement les options dont votre machine est équipée !"
         },
         {
           "text": "Cliquez sur \"sélectionnez un fichier .hex\""
@@ -187,7 +191,7 @@
           "text": "Une fois upload, cliquez sur \"Flasher\""
         },
         {
-          "text": "Cette action peut durer quelques minutes."
+          "warning": "Cette action peut durer quelques minutes."
         }
       ]
     },
@@ -201,10 +205,10 @@
           "title": "Etape 8"
         },
         {
-          "text": "Votre imprimante a été mise à jour. Vous pouvez fermer Dagom'app."
+          "text": "Votre imprimante a été mise à jour."
         },
         {
-          "text": "Encore une dernière étape."
+          "text": "Cliquez sur \"OK\" et fermer Dagom'app."
         }
       ]
     }
@@ -214,7 +218,7 @@
     "subtitle": "Mise à jour effectuée !",
     "items": [
       {
-        "text": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."
+        "warning": "Après une mise à jour, il est nécessaire de recalibrer l'imprimante 3D."
       }
     ]
   }
