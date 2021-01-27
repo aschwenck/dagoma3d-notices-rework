@@ -9,7 +9,7 @@
     "flip": true,
     "img": "NevaMagis/Notice/3-a-photophore-pp-3-1600x600.jpg",
     "title": [
-      "Notice de première utilisation - page 3",
+      "Notice d'utilisation - Page 4",
       "Changement de couleur"
     ],
     "subtitle": "L'apparition de la couleur",
@@ -108,23 +108,6 @@
         },
         {
           "text": "Vous allez découvrir la fonction \"Éjection du filament.\""
-        },
-        {
-          "italic": "Vous n'avez pas de gros sel, riz, quinoa, ... ? Profitez de ces 45 minutes d'impression pour aller en acheter !"
-        },
-        {
-          "button": {
-            "text": "Si vous avez le moindre problème, commencez par ",
-            "to": "/firmware/magis",
-            "label": "mettre à jour votre firmware"
-          }
-        },
-        {
-          "button": {
-            "text": "Si ce n'est pas résolu, nous sommes à votre disposition via ",
-            "href": "//support.dagoma.fr/support/home",
-            "label": "le support"
-          }
         }
       ]
     },
@@ -146,19 +129,19 @@
           "text": "Le filament est éjecté de l'imprimante. Vous n'avez plus qu'à le saisir et à tirer pour l'enlever."
         },
         {
-          "text": "Vérifiez que l'extrémité du filament est bien propre. N'hésitez pas à casser le bout du filament pour que l'insertion se fasse bien."
-        },
-        {
           "text": "Prenez votre autre bobine."
         },
         {
-          "italic": "Si vous n'en avez pas, vous pouvez utiliser la première bobine ou l'échantillon fourni avec votre Magis."
+          "text": "Vérifiez que l'extrémité du filament est bien propre. N'hésitez pas à casser le bout du filament pour que l'insertion se fasse bien."
         },
         {
           "text": "Présentez le filament dans l'extrudeur. Poussez-le jusqu'à ce qu'il soit entraîné par la machine."
         },
         {
-          "text": "Pensez à retirer le PLA qui coule sous la tête."
+          "help": {
+            "quick_tips": "Si vous n'en avez pas, vous pouvez utiliser la première bobine ou l'échantillon fourni avec votre Magis.",
+            "danger": "Pensez à retirer le PLA qui coule sous la tête."
+          }
         }
       ]
     },

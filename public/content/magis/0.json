@@ -7,7 +7,7 @@
   "header": {
     "img": "NevaMagis/Notice/0-a-magis-bobine.jpg",
     "title": [
-      "Notice de première utilisation - Introduction",
+      "Notice d'utilisation - Introduction",
       "Premiers pas"
     ],
     "subtitle": "ça y est, vous avez reçu votre Magis.",
@@ -24,8 +24,7 @@
     },
     {
       "media": {
-        "src": "NevaMagis/Notice/0-c-a-gris-contenu.jpg",
-        "color": "anthracite"
+        "src": "NevaMagis/Notice/0-c-a-gris-contenu.jpg"
       },
       "article": [
         {
@@ -35,22 +34,18 @@
           "text": "Avec votre Magis vous recevrez à part les éléments indispensables pour lancer votre première impression."
         },
         {
-          "text": "L'échantillon de filament ne vous servira pas dans ce tutoriel."
-        },
-        {
           "lettered-list": [
-            "Bras aimantés",
-            "Alimentation",
-            "Échantillon de fil",
-            "Carte SD"
+            "6 Bras aimantés",
+            "1 Alimentation",
+            "1 Échantillon de filament Chromatik",
+            "1 Carte SD"
           ]
         }
       ]
     },
     {
       "media": {
-        "src": "NevaMagis/Notice/0-c-b-gris-contenu.jpg",
-        "color": "anthracite"
+        "src": "NevaMagis/Notice/0-c-b-gris-contenu.jpg"
       },
       "article": [
         {
@@ -61,10 +56,10 @@
         },
         {
           "lettered-list": [
-            "Adaptateur SD",
-            "Lingettes isopropyliques",
-            "Cable USB",
-            "Spatule"
+            "1 Adaptateur SD",
+            "2 Lingettes isopropyliques",
+            "1 Câble USB",
+            "1 Spatule"
           ]
         }
       ]
@@ -78,7 +73,7 @@
           "title": "Préparation"
         },
         {
-          "text": "Avant de commencer, retirez les 3 cales oranges qui se trouvent sous le plateau."
+          "text": "Avant de commencer, retirez les 3 câles oranges qui se trouvent sous le plateau et gardez-les précieusement."
         }
       ]
     },
@@ -120,7 +115,7 @@
           "title": "Les bras"
         },
         {
-          "text": "Placez la Neva face à vous, le bouton vers l'avant."
+          "text": "Placez la Magis face à vous, le bouton vers l'avant."
         },
         {
           "text": "Déposez la tête au centre de l'imprimante."
